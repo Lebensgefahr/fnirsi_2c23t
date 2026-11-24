@@ -3,14 +3,19 @@
 # How to change firmware:
 
 Press and hold MENU button and turn device on. It will show "Bootloader" on it's screen.
-Copy firmware file on a disk which will appear. Target file name should be something like firmware.bin.
-With original name it shows 8%% and update failed.
-Maybe it is necessary to remove Ready.TXT file which you can see on a mounted disk.
+Copy firmware file on a disk which will appear.
+If the firmware update completes successfully, you will see the startup screen.
+If this does not happen and you see "Bootloader 8%" or something similar on the screen, 
+turn off the device using the POWER button. 
+Press and hold MENU, then press POWER to enter the bootloader again. 
+If you turn the device on without holding MENU, it will not boot,
+and you will only be able to access the bootloader again by performing a reset as described below.
+
 
 # Device is not powering on after firmware update.
-
-Press and hold side button through a small hole on the right side of the device.
-At the same time press and hold MENU button and press and hold power button then release side button.
+Press and hold the MENU and POWER buttons simultaneously. 
+Briefly press the button inside the small pinhole on the right side of the device. 
+Keep holding MENU and POWER for a couple more seconds.
 Bootloader will show it's message on the screen.
 
 # Hidden functions
